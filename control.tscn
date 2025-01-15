@@ -1,0 +1,114 @@
+[gd_scene load_steps=9 format=3 uid="uid://dtosheckp3n33"]
+
+[ext_resource type="Texture2D" uid="uid://es5wq6sx0lnk" path="res://imagenes/casino-cards-icon-cartoon-poker-card-vector.jpg" id="1_5kjvq"]
+[ext_resource type="Texture2D" uid="uid://cjefxfn4moamx" path="res://imagenes/29380417-explosión-de-una-mina-antitanque-en-el-fondo-ilustración-sobre-fondo-blanco.jpg" id="2_wnylp"]
+[ext_resource type="Texture2D" uid="uid://dp53j2nbr63d8" path="res://imagenes/png-transparent-casino-game-roulette-gambling-casino-game-cartoon-turntable-cartoon-character-game-electronics-thumbnail.png" id="3_k1dit"]
+[ext_resource type="Texture2D" uid="uid://hlig283mx8f7" path="res://imagenes/d965a5e89586902e2a6946ce7f07b11e.jpg" id="4_x47pe"]
+[ext_resource type="Texture2D" uid="uid://cwh36u3ywun6v" path="res://imagenes/illustration-coin-design-finance-coin-money-coin-finance-cartoon-design-illustration-and-icon-for-website-digital-and-print-vector.jpg" id="5_5nsni"]
+[ext_resource type="Texture2D" uid="uid://bcpehvuu6kh8s" path="res://imagenes/a-s-d-cohiba-club-via-primo-carnera-bets10-symbol-school-lottery-ticket (1).jpg" id="6_lj281"]
+[ext_resource type="Texture2D" uid="uid://mft7mugf8x7o" path="res://imagenes/36c761bf39589a17e34cc0bc890f9dca (1).jpg" id="7_cbu6g"]
+[ext_resource type="Texture2D" uid="uid://c2rvu8f2uan8s" path="res://imagenes/banner-skoda-2 (1).jpg" id="8_7bxpb"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.099986, 0.099986, 0.099986, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.298
+anchor_top = 0.5
+anchor_right = 0.298
+anchor_bottom = 0.5
+offset_left = -64.104
+offset_top = -262.0
+offset_right = 63.896
+offset_bottom = 262.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 70
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+icon = ExtResource("1_5kjvq")
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+icon = ExtResource("2_wnylp")
+
+[node name="Button3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+icon = ExtResource("3_k1dit")
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.721
+anchor_top = 0.5
+anchor_right = 0.721
+anchor_bottom = 0.5
+offset_left = -64.208
+offset_top = -262.0
+offset_right = 63.792
+offset_bottom = 262.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 70
+
+[node name="Button" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+icon = ExtResource("4_x47pe")
+
+[node name="Button2" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 0
+icon = ExtResource("5_5nsni")
+
+[node name="Button3" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 0
+icon = ExtResource("6_lj281")
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 178.0
+grow_horizontal = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("7_cbu6g")
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -166.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("8_7bxpb")
